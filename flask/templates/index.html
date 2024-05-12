@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify-like App</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #1DB954;
+            padding: 10px 0;
+            text-align: center;
+            color: #fff;
+        }
+        main {
+            padding: 20px;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            background-color: #f9f9f9;
+            padding: 10px;
+            margin-bottom: 5px;
+            border-radius: 5px;
+        }
+        audio {
+            width: 100%;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Spotify </h1>
+    </header>
+    <main>
+        <h2>Suggested Songs:</h2>
+        <ul id="song-list">
+            {% for song in songs %}
+            <li>
+                {{ song.title }} - {{ song.artist }}
+                <audio controls>
+                    <source src="{{ url_for('static', filename=song.file) }}" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+            </li>
+            {% endfor %}
+        </ul>
+    </main>
+</body>
+</html>
+ 
