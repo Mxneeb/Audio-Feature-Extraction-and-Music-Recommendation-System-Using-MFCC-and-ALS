@@ -89,7 +89,6 @@ Recommendations are based on item factors learned from the dataset.
 
 The system can be evaluated through metrics like precision, recall, and user engagement metrics based on user feedback.
 
-<h2>Results</h2>
 
 
 <h2>Conclusion</h2>
