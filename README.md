@@ -91,7 +91,6 @@ The system can be evaluated through metrics like precision, recall, and user eng
 
 <h2>Results</h2>
 
-[Output Screenshots](https://github.com/AbdurRahmanGrami/bda-project/files/15287229/Outputs.zip)
 
 <h2>Conclusion</h2>
 This project provides a comprehensive framework for audio feature extraction, metadata association, and music recommendation. The combined usage of librosa, pandas, MongoDB, and Apache Spark's ALS algorithm offers a solid foundation for building and evaluating music recommendation systems. Further enhancements can involve fine-tuning model parameters, incorporating additional features, and integrating user feedback for iterative improvement.
