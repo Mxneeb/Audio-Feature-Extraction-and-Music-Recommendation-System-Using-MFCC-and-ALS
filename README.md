@@ -93,13 +93,6 @@ The system can be evaluated through metrics like precision, recall, and user eng
 
 [Output Screenshots](https://github.com/AbdurRahmanGrami/bda-project/files/15287229/Outputs.zip)
 
-
-<h2>Authors</h2>
-
-- Muneeb Ahmad (22i-1889)
-- Abdur Rahman Grami (22i-2008)
-- Samiullah (22i-1962)
-
 <h2>Conclusion</h2>
 This project provides a comprehensive framework for audio feature extraction, metadata association, and music recommendation. The combined usage of librosa, pandas, MongoDB, and Apache Spark's ALS algorithm offers a solid foundation for building and evaluating music recommendation systems. Further enhancements can involve fine-tuning model parameters, incorporating additional features, and integrating user feedback for iterative improvement.
 For detailed instructions and code implementation, refer to the provided repository (audio-feature-extraction) and its README.md.
